@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDesconectada", "CapaDesconectada\CapaDesconectada.csproj", "{96191EA3-8075-47BA-9807-EAF94CA2BECB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96191EA3-8075-47BA-9807-EAF94CA2BECB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96191EA3-8075-47BA-9807-EAF94CA2BECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96191EA3-8075-47BA-9807-EAF94CA2BECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96191EA3-8075-47BA-9807-EAF94CA2BECB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3C3A7C9-8EB3-4D75-834C-FA5D5DC6867F}
+	EndGlobalSection
+EndGlobal
