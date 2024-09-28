@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\programacion ii\\capadesconectada\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\programacion ii\\capadesconectada\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{EE6F1D2B-8775-45E0-8692-D00656617AAF}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\programacion ii\\capadesconectada\\accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6F1D2B-8775-45E0-8692-D00656617AAF}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE6F1D2B-8775-45E0-8692-D00656617AAF}|AccesoDatos\\AccesoDatos.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE6F1D2B-8775-45E0-8692-D00656617AAF}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\programacion ii\\capadesconectada\\capadesconectada\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{96191EA3-8075-47BA-9807-EAF94CA2BECB}|CapaDesconectada\\CapaDesconectada.csproj|solutionrelative:capadesconectada\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +50,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\CapaDesconectada\\App.config",
+              "RelativeDocumentMoniker": "CapaDesconectada\\App.config",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\CapaDesconectada\\App.config",
+              "RelativeToolTip": "CapaDesconectada\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-23T03:55:46.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataBase.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\AccesoDatos\\DataBase.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\DataBase.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\AccesoDatos\\DataBase.cs",
+              "RelativeToolTip": "AccesoDatos\\DataBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:55:36.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\AccesoDatos\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\AccesoDatos\\CustomerRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\CustomerRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T03:54:42.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\CapaDesconectada\\Form1.cs",
               "RelativeDocumentMoniker": "CapaDesconectada\\Form1.cs",
               "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\CapaDesconectada\\Form1.cs",
               "RelativeToolTip": "CapaDesconectada\\Form1.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T03:37:05.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Programacion II\\CapaDesconectada\\CapaDesconectada\\Form1.cs",
               "RelativeDocumentMoniker": "CapaDesconectada\\Form1.cs",

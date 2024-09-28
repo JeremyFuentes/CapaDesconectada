@@ -8,3 +8,6 @@ C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\Cap
 C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.csproj.CoreCompileInputs.cache
 C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.exe
 C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\CapaDesconectada\bin\Debug\AccesoDatos.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\CapaDesconectada\bin\Debug\AccesoDatos.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesc.ABCBD388.Up2Date
