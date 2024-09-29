@@ -31,12 +31,29 @@ namespace CapaDesconectada
         private void btnBuscarNt_Click(object sender, EventArgs e)
         {
             var cliente = customerRepository.ObetenerPorId(tbBusquedaNt.Text);
+            RellenarForm(cliente);
             if (cliente == null) {
                 MessageBox.Show("El objeto es null");
             }
             if (cliente != null) {
                 var listaClientes = new List<Customer> { cliente };
                 gridNoTipado.DataSource = listaClientes;
+            }
+        }
+
+        private void RellenarForm(Customer cliente)
+        {
+            if (cliente != null)
+            {
+                tboxCustomerID.Text = cliente.CustomerID;
+                tboxCompanyName.Text = cliente.CompanyName;
+                tboxContactName.Text = cliente.ContactName;
+                tboxContactTitle.Text = cliente.ContactTitle;
+                tboxAddres.Text = cliente.Address;
+            }
+            if (cliente == null)
+            {
+                MessageBox.Show("objeto null ");
             }
         }
 
@@ -57,12 +74,14 @@ namespace CapaDesconectada
                 ContactTitle = tboxContactTitle.Text,
                 Address = tboxAddres.Text,
             };
-            MessageBox.Show(cliente.CustomerID);
-            MessageBox.Show(cliente.CompanyName);
-            MessageBox.Show(cliente.ContactName);
-            MessageBox.Show(cliente.ContactTitle);
-            MessageBox.Show(cliente.Address);
             return cliente;
+        }
+
+        private void btnActualizarNT_Click(object sender, EventArgs e)
+        {
+            var cliente = CrearCliente();
+            var actulaizadas = customerRepository.ActualizarCliente(cliente);
+            MessageBox.Show($"{actulaizadas} filas actulizadas");
         }
 
         #endregion
@@ -97,5 +116,6 @@ namespace CapaDesconectada
 
         #endregion
 
+        
     }
 }

@@ -116,5 +116,38 @@ namespace AccesoDatos
                 }
             }
         }
+
+        public int ActualizarCliente(Customer cliente)
+        {
+            using (var conexion = DataBase.GetSqlConnection())
+            {
+                String updateUser = "";
+                updateUser = updateUser + "UPDATE [dbo].[Customers] " + "\n";
+                updateUser = updateUser + "   SET [CustomerID] = @CustomerID " + "\n";
+                updateUser = updateUser + "      ,[CompanyName] = @CompanyName " + "\n";
+                updateUser = updateUser + "      ,[ContactName] = @ContactName " + "\n";
+                updateUser = updateUser + "      ,[ContactTitle] = @ContactTitle " + "\n";
+                updateUser = updateUser + "      ,[Address] = @Address " + "\n";
+                updateUser = updateUser + " WHERE CustomerID = @CustomerID";
+                using (var commando = new SqlCommand(updateUser, conexion))
+                {
+                    SqlCommand comando = parametrosSqlCustomers(commando, cliente);
+                    SqlDataAdapter adapter = new SqlDataAdapter();
+                    adapter.UpdateCommand = comando;
+                    return adapter.UpdateCommand.ExecuteNonQuery();
+                }
+            }
+        }
+
+        private SqlCommand parametrosSqlCustomers(SqlCommand commando, Customer cliente)
+        {
+            commando.Parameters.AddWithValue("CustomerID", cliente.CustomerID);
+            commando.Parameters.AddWithValue("CompanyName", cliente.CompanyName);
+            commando.Parameters.AddWithValue("ContactName", cliente.ContactName);
+            commando.Parameters.AddWithValue("ContactTitle", cliente.ContactTitle);
+            commando.Parameters.AddWithValue("Address", cliente.Address);
+            return commando;
+        }
+
     }
 }
