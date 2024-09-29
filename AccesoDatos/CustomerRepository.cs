@@ -64,7 +64,7 @@ namespace AccesoDatos
                 }
             }
         }
-        private Customer ExtraerInfoCliente(DataTable dataTeble)
+        public Customer ExtraerInfoCliente(DataTable dataTeble)
         {
             Customer customer = new Customer();
             foreach (DataRow fila in dataTeble.Rows)

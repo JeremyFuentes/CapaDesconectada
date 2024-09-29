@@ -42,6 +42,16 @@ namespace CapaDesconectada
             var customers = adaptador.GetData();
             gridTipado.DataSource = customers;
         }
+
+        private void btnBuscarTipado_Click(object sender, EventArgs e)
+        {
+            var customer = adaptador.GetDataByCustomerID(tBoxBuscarTipado.Text);
+            if (customer != null)
+            {
+                var objeto1 = customerRepository.ExtraerInfoCliente(customer);
+                Console.WriteLine(customer);
+            }
+        }
         #endregion
 
     }
