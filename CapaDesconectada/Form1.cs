@@ -21,6 +21,23 @@ namespace CapaDesconectada
             InitializeComponent();
         }
 
+        private void RellenarForm(Customer cliente)
+        {
+            if (cliente != null)
+            {
+                tboxCustomerID.Text = cliente.CustomerID;
+                tboxCompanyName.Text = cliente.CompanyName;
+                tboxContactName.Text = cliente.ContactName;
+                tboxContactTitle.Text = cliente.ContactTitle;
+                tboxAddres.Text = cliente.Address;
+            }
+            if (cliente == null)
+            {
+                MessageBox.Show("objeto null ");
+            }
+        }
+
+
         #region NoTipado
         private CustomerRepository customerRepository = new CustomerRepository();
         private void btnObtenerNoTipado_Click(object sender, EventArgs e)
@@ -38,22 +55,6 @@ namespace CapaDesconectada
             if (cliente != null) {
                 var listaClientes = new List<Customer> { cliente };
                 gridNoTipado.DataSource = listaClientes;
-            }
-        }
-
-        private void RellenarForm(Customer cliente)
-        {
-            if (cliente != null)
-            {
-                tboxCustomerID.Text = cliente.CustomerID;
-                tboxCompanyName.Text = cliente.CompanyName;
-                tboxContactName.Text = cliente.ContactName;
-                tboxContactTitle.Text = cliente.ContactTitle;
-                tboxAddres.Text = cliente.Address;
-            }
-            if (cliente == null)
-            {
-                MessageBox.Show("objeto null ");
             }
         }
 
@@ -101,6 +102,7 @@ namespace CapaDesconectada
             if (customer != null)
             {
                 var objeto1 = customerRepository.ExtraerInfoCliente(customer);
+                RellenarForm(objeto1);
                 Console.WriteLine(customer);
             }
         }
@@ -114,8 +116,43 @@ namespace CapaDesconectada
             MessageBox.Show($"{insertados} registros insertados");
         }
 
+        private void btnActualizarTipado_Click(object sender, EventArgs e)
+        {
+            var fila = adaptador.GetDataByCustomerID(tboxCustomerID.Text);
+
+            if(fila != null)
+            {
+                var datoOriginal = customerRepository.ExtraerInfoCliente(fila);
+                var datosModificados = CrearCliente();
+                var filas = adaptador.Update(
+                     datosModificados.CustomerID,
+                     datosModificados.CompanyName,
+                     datosModificados.ContactName,
+                     datosModificados.ContactTitle,
+                     datosModificados.Address,
+                     datosModificados.City,
+                     datosModificados.Region,
+                     datosModificados.PostalCode,
+                     datosModificados.Country,
+                     datosModificados.Phone,
+                     datosModificados.Fax,
+                     datoOriginal.CustomerID,
+                     datoOriginal.CompanyName,
+                     datoOriginal.ContactName,
+                     datoOriginal.ContactTitle,
+                     datoOriginal.Address,
+                     datoOriginal.City,
+                     datoOriginal.Region,
+                     datoOriginal.PostalCode,
+                     datoOriginal.Country,
+                     datoOriginal.Phone,
+                     datoOriginal.Fax);
+
+                MessageBox.Show($"{filas} filas modificadas");
+            }
+        }
+
         #endregion
 
-        
     }
 }
