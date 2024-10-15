@@ -109,8 +109,12 @@ namespace CapaDesconectada
             {
                 var objeto1 = customerRepository.ExtraerInfoCliente(customer);
                 RellenarForm(objeto1);
+
+                var listaClientes = new List<Customer> { objeto1 };
+                gridTipado.DataSource = listaClientes;
                 Console.WriteLine(customer);
             }
+
         }
 
         private void btnInsertarT_Click(object sender, EventArgs e)
@@ -169,6 +173,13 @@ namespace CapaDesconectada
 
                 MessageBox.Show($"{filas} filas modificadas");
             }
+        }
+
+        private void btnEliminarT_Click(object sender, EventArgs e)
+        {
+            int filasEliminadas = adaptador.EliminarCliente(tboxCustomerID.Text);
+            MessageBox.Show($"{filasEliminadas} filas eliminadas");
+
         }
 
         #endregion

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnEliminarClienteNt = new System.Windows.Forms.Button();
             this.btnActualizarNT = new System.Windows.Forms.Button();
             this.btnBuscarNt = new System.Windows.Forms.Button();
             this.tbBusquedaNt = new System.Windows.Forms.TextBox();
@@ -54,7 +55,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.tboxAddres = new System.Windows.Forms.TextBox();
             this.btnInsertarCliente = new System.Windows.Forms.Button();
-            this.btnEliminarClienteNt = new System.Windows.Forms.Button();
+            this.btnEliminarT = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridNoTipado)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -76,6 +77,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DataSet No Tipado";
+            // 
+            // btnEliminarClienteNt
+            // 
+            this.btnEliminarClienteNt.Location = new System.Drawing.Point(151, 556);
+            this.btnEliminarClienteNt.Name = "btnEliminarClienteNt";
+            this.btnEliminarClienteNt.Size = new System.Drawing.Size(193, 37);
+            this.btnEliminarClienteNt.TabIndex = 6;
+            this.btnEliminarClienteNt.Text = "Eliminar";
+            this.btnEliminarClienteNt.UseVisualStyleBackColor = true;
+            this.btnEliminarClienteNt.Click += new System.EventHandler(this.btnEliminarClienteNt_Click);
             // 
             // btnActualizarNT
             // 
@@ -135,6 +146,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.btnEliminarT);
             this.groupBox2.Controls.Add(this.btnActualizarTipado);
             this.groupBox2.Controls.Add(this.btnInsertarT);
             this.groupBox2.Controls.Add(this.label2);
@@ -151,7 +163,7 @@
             // 
             // btnActualizarTipado
             // 
-            this.btnActualizarTipado.Location = new System.Drawing.Point(130, 556);
+            this.btnActualizarTipado.Location = new System.Drawing.Point(24, 547);
             this.btnActualizarTipado.Name = "btnActualizarTipado";
             this.btnActualizarTipado.Size = new System.Drawing.Size(197, 37);
             this.btnActualizarTipado.TabIndex = 6;
@@ -305,15 +317,15 @@
             this.btnInsertarCliente.UseVisualStyleBackColor = true;
             this.btnInsertarCliente.Click += new System.EventHandler(this.btnInsertarCliente_Click);
             // 
-            // btnEliminarClienteNt
+            // btnEliminarT
             // 
-            this.btnEliminarClienteNt.Location = new System.Drawing.Point(151, 556);
-            this.btnEliminarClienteNt.Name = "btnEliminarClienteNt";
-            this.btnEliminarClienteNt.Size = new System.Drawing.Size(193, 37);
-            this.btnEliminarClienteNt.TabIndex = 6;
-            this.btnEliminarClienteNt.Text = "Eliminar";
-            this.btnEliminarClienteNt.UseVisualStyleBackColor = true;
-            this.btnEliminarClienteNt.Click += new System.EventHandler(this.btnEliminarClienteNt_Click);
+            this.btnEliminarT.Location = new System.Drawing.Point(253, 547);
+            this.btnEliminarT.Name = "btnEliminarT";
+            this.btnEliminarT.Size = new System.Drawing.Size(197, 37);
+            this.btnEliminarT.TabIndex = 7;
+            this.btnEliminarT.Text = "Eliminar";
+            this.btnEliminarT.UseVisualStyleBackColor = true;
+            this.btnEliminarT.Click += new System.EventHandler(this.btnEliminarT_Click);
             // 
             // Form1
             // 
@@ -375,6 +387,7 @@
         private System.Windows.Forms.Button btnActualizarNT;
         private System.Windows.Forms.Button btnActualizarTipado;
         private System.Windows.Forms.Button btnEliminarClienteNt;
+        private System.Windows.Forms.Button btnEliminarT;
     }
 }
 
