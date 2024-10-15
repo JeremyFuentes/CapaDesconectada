@@ -24,3 +24,4 @@ C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\guias\CapaDesconecta
 C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\guias\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesc.ABCBD388.Up2Date
 C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\guias\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.exe
 C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\guias\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Programacion II\guias\CapaDesconectada\CapaDesconectada\obj\Debug\CapaDesconectada.Form2.resources
